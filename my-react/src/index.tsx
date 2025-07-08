@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MyHello from './chap03/MyHello';
+import books from './chap03/books';
+import ForNest from './chap03/ForNest';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <MyHello name="鈴木" />
+    <ForNest src={books} />
   </React.StrictMode>
 );
 
