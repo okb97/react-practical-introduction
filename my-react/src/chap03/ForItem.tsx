@@ -24,7 +24,10 @@ export default function ForItem({book} : {book:Book}){
                 {book.title}({book.price}円)
                 </a>
             </dt>
-            {dd}
+            <dd>
+                {book.summary}
+                {book.download ? <Download isbn={book.isbn} /> :null}
+            </dd>
         </React.Fragment>
     )
 }

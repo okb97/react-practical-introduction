@@ -5,14 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import books from './chap03/books';
 import ForNest from './chap03/ForNest';
+import StyledPanel from './chap03/StyledPanel';
+import ListTemplate from './chap03/ListTemplate';
+import StateBasic from './chap03/StateBasic';
+import StateParent from './chap03/StateParent';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <ForNest src={books} />
-  </React.StrictMode>
+  <StateParent />
 );
 
 // If you want to start measuring performance in your app, pass a function
