@@ -9,12 +9,15 @@ import StyledPanel from './chap03/StyledPanel';
 import ListTemplate from './chap03/ListTemplate';
 import StateBasic from './chap03/StateBasic';
 import StateParent from './chap03/StateParent';
+import EventMouse from './chap03/EventMouse';
+import EventCompare from './chap03/EventCompare';
+import EventKey from './chap03/EventKey';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <StateParent />
+  <EventKey />
 );
 
 // If you want to start measuring performance in your app, pass a function
