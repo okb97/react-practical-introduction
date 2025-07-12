@@ -12,13 +12,15 @@ import StateParent from './chap03/StateParent';
 import EventMouse from './chap03/EventMouse';
 import EventCompare from './chap03/EventCompare';
 import EventKey from './chap03/EventKey';
+import EventPropagation from './chap03/EventPropagation';
+import EventOnce from './chap03/EventOnce';
+import EventPassive from './chap03/EventPassive';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <EventKey />
-);
+  <EventPassive /> );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
