@@ -3,24 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import books from './chap03/books';
-import ForNest from './chap03/ForNest';
-import StyledPanel from './chap03/StyledPanel';
-import ListTemplate from './chap03/ListTemplate';
-import StateBasic from './chap03/StateBasic';
-import StateParent from './chap03/StateParent';
-import EventMouse from './chap03/EventMouse';
-import EventCompare from './chap03/EventCompare';
-import EventKey from './chap03/EventKey';
-import EventPropagation from './chap03/EventPropagation';
-import EventOnce from './chap03/EventOnce';
-import EventPassive from './chap03/EventPassive';
+import StateForm from './chap04/StateForm';
+import StateFormUC from './chap04/StateFormUC';
+import FormTextarea from './chap04/FormTextarea';
+import FormSelect from './chap04/FormSelect';
+import FormList from './chap04/FormList';
+import FormRadio from './chap04/FormRadio';
+import FormCheck from './chap04/FormCheck';
+import FormCheckMulti from './chap04/FormCheckMulti';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <EventPassive /> );
+  <FormCheckMulti /> 
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
