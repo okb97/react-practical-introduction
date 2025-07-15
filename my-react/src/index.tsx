@@ -11,12 +11,15 @@ import FormList from './chap04/FormList';
 import FormRadio from './chap04/FormRadio';
 import FormCheck from './chap04/FormCheck';
 import FormCheckMulti from './chap04/FormCheckMulti';
+import StateNest from './chap04/StateNest';
+import StateNestImmer from './chap04/StateNestImmer';
+import StateTodo from './chap04/StateTodo';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <FormCheckMulti /> 
+  <StateTodo /> 
 );
 
 // If you want to start measuring performance in your app, pass a function
