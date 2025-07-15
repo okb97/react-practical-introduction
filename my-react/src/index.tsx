@@ -3,23 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import StateForm from './chap04/StateForm';
-import StateFormUC from './chap04/StateFormUC';
-import FormTextarea from './chap04/FormTextarea';
-import FormSelect from './chap04/FormSelect';
-import FormList from './chap04/FormList';
-import FormRadio from './chap04/FormRadio';
-import FormCheck from './chap04/FormCheck';
-import FormCheckMulti from './chap04/FormCheckMulti';
-import StateNest from './chap04/StateNest';
-import StateNestImmer from './chap04/StateNestImmer';
-import StateTodo from './chap04/StateTodo';
+import LazyBasic from './chap05/LazyBasic';
+import LazyMulti from './chap05/LazyMulti';
+import SuspenseSimple from './chap05/SuspenseSimple';
+import ThrowResult from './chap05/ThrowResult';
+import SuspenseResult from './chap05/SuspenseResult';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <StateTodo /> 
+  <SuspenseResult /> 
 );
 
 // If you want to start measuring performance in your app, pass a function
